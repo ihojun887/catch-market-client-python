@@ -16,7 +16,7 @@ function MainPageComponent() {
   const [banners, setBanners] = React.useState([]);
   React.useEffect(function () {
     axios
-      .get(`172.26.39.22:9000/products`)
+      .get(`${PYTHON_URL}/products`)
       .then(function (result) {
         const products = result.data.products;
         setProducts(products);
