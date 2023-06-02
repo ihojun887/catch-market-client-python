@@ -117,7 +117,7 @@ function UploadComponent() {
         </Form.Item>
         <Form.Item>
           <Button id="submit-button" size="large" htmlType="submit">
-            상품 등록
+            상품 등록r
           </Button>
         </Form.Item>
       </Form>
