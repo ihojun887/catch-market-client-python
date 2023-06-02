@@ -11,7 +11,7 @@ import "dayjs/locale/ko";
 import ProductCard from "../components/productCard";
 dayjs.extend(relativeTime);
 dayjs.locale("ko");
-
+ 
 function MainPageComponent() {
   const [products, setProducts] = React.useState([]);
   const [banners, setBanners] = React.useState([]);
